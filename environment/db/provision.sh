@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update and Upgrade
-sudo apt update && sudo apt upgrade
+sudo apt update -y && sudo apt upgrade -y
 
 # Install MongoDB, is not in default Ubuntu, cannot get the 3.2.20 version too
 wget -qO - https://www.mongodb.org/static/pgp/server-3.2.asc | sudo apt-key add -
