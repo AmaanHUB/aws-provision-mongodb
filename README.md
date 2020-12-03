@@ -13,4 +13,5 @@ A simple provision script to run within a Ubuntu 18.04 instance on an AWS EC2.
 
 * For some reason, the seeding is working as well, so actual random posts are produced
 
+![](images/Posts-IP.png)
 ![](images/Posts-DB.png)
